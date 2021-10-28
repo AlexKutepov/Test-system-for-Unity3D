@@ -5,7 +5,7 @@ The target language is English.
 Version Unity3d is all versions that support the TextMeshPro,
 but you can rewrite the code and remove TextMeshPro.
 
-The design pattern used is MVC. The answers are generated automatically.
+The design pattern used is MVC, project pattern is singleton. The answers are generated automatically.
 
 How to use it? On scene the "Testing" exist the GameObject "TestSystem" which used to add new questions.
 TestSystem includes the GameObject "Controller" which controls the UI components.
