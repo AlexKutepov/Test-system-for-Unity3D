@@ -1,15 +1,38 @@
-# Unity3d Test System 
+<h1 align="center">
+  <br>
+   <a href=""><img src="https://sun9-28.userapi.com/impg/VGAtPA17sFyec5BrJk8Pb7rKAd9az8QKdRa6XQ/RfOVxqeeslU.jpg?size=1024x1024&quality=95&sign=50f7bcfe962c8890b5fa3381f5714aec&type=album" alt="Test system for Unity3D" width="200"></a>
+  <br>
+    Test system for Unity3D
+  <br>
+</h1>
+
+<p align="center">
+  <a href="#about">About</a> •
+    <a href="#about">Instruction</a> •
+  <a href="#download">Download</a> •
+<a href="#license">License</a> •
+</p>
+
+## About
+
+The test system has been created for studying process in a colleges and universities.
+The reson is the non-solution in the Internet.
+
+## Instruction
+
 
 The target language is English.
 
-Version Unity3d is all versions that support the TextMeshPro,
-but you can rewrite the code and remove TextMeshPro.
+The version Unity3d is all of versions support the TextMeshPro.
 
-The design pattern used is MVC, project pattern is singleton. The answers are generated automatically.
+The design pattern into Unity3D is MVC, project pattern is singleton. The answers are generated automatically.
 
-How to use it? On scene the "Testing" exist the GameObject "TestSystem" which used to add new questions.
+How to using it? On scene the "Testing" exist the GameObject "TestSystem" which used to add new questions.
 TestSystem includes the GameObject "Controller" which controls the UI components.
-You can add new questions in the Scene or use the XML parser, script Test System includes it the opportunity. For example, you can use in the first step the method "saveQuestionsToFile" through console Unity3D and get the XML file. The next step is adding new questions into file XML. And after adding you can use the method  "loadQuestionsFromFile"
+You can add a new questions in the Scene or using the XML parser, script tht "Test System"
+includes the opportunity. For example, you can using in the first step the method "saveQuestionsToFile" through console Unity3D and get the XML file. 
+The next step is adding new questions into file XML. 
+And after adding you can use the method  "loadQuestionsFromFile"
 
 What the tests look like:
 
@@ -27,8 +50,13 @@ To set up the time you can change the CultureInfo in the TestController.
 the button "Save rezult" don't have a method.
 
 
+## Download
+
+- (Latest release) [Download](https://github.com/AlexKutepov/Test-system-for-Unity3D/releases/)
+
 ## License
 
 MIT
 
 **Free Software, Hell Yeah!**
+
